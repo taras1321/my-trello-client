@@ -1,0 +1,22 @@
+.Home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Home .logo {
+  font-size: 40px;
+  color: #026aa7;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.Home .boards {
+  margin-top: 120px;
+  display: flex;
+  width: 100%;
+  padding: 0 85px;
+  flex-wrap: wrap;
+}

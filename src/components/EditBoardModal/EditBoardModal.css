@@ -1,0 +1,105 @@
+.EditBoardModal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 150px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.EditBoardModal .modal-el {
+  padding: 30px;
+  position: relative;
+  width: 350px;
+  background-color: #fff;
+}
+
+.EditBoardModal input {
+  outline: none;
+  border: none;
+  background-color: rgba(204, 204, 204, 0.7);
+  padding: 7px 10px;
+  color: #000;
+  font-size: 15px;
+  border-radius: 3px;
+  width: 90%;
+  margin-top: 5px;
+}
+
+.EditBoardModal input:focus-visible {
+  background-color: rgba(204, 204, 204, 0.7);
+}
+
+.EditBoardModal .colors {
+  width: 110px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.EditBoardModal .blue,
+.EditBoardModal .orange,
+.EditBoardModal .green {
+  border-radius: 3px;
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.EditBoardModal .blue {
+  background-color: #0079bf;
+}
+.EditBoardModal .orange {
+  background-color: #d29034;
+}
+.EditBoardModal .green {
+  background-color: #519839;
+}
+
+.EditBoardModal .select {
+  color: #fff;
+}
+
+.EditBoardModal .btn-save,
+.EditBoardModal .btn-delete {
+  margin-top: 20px;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.EditBoardModal .btn-save {
+  background-color: #519839;
+}
+
+.EditBoardModal .btn-save:disabled {
+  background: rgb(198 198 198);
+  cursor: not-allowed;
+}
+
+.EditBoardModal .btn-delete {
+  background-color: #ce4a30;
+  margin-left: 10px;
+}
+
+.EditBoardModal .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.EditBoardModal .close:hover {
+  color: rgba(0, 0, 0, 0.5);
+}

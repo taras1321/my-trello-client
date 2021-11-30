@@ -1,0 +1,111 @@
+.List .list-wrapper {
+  padding: 0 4px;
+  min-height: 100%;
+  padding-bottom: 20px;
+}
+
+.List .list {
+  width: 270px;
+  background-color: #ebecf0;
+  border-radius: 3px;
+  color: rgb(23, 43, 77);
+  padding-bottom: 8px;
+}
+
+.List .list-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.List .title {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.List .edit-block {
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.List .edit-block:hover {
+  background-color: rgba(9, 30, 66, 0.08);
+}
+
+.List .edit {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.List .add-item {
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  margin: 0 8px;
+  height: 30px;
+  position: relative;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.List .add-item:hover {
+  background-color: rgba(9, 30, 66, 0.08);
+}
+
+.List .add-icon {
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+}
+
+.List .add-text {
+  margin-left: 35px;
+}
+
+.List .form {
+  margin: 0 10px;
+}
+
+.List textarea {
+  font-family: 'Segoe UI';
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  min-height: 60px;
+  outline: none;
+  box-shadow: 0 1px 0 rgba(9, 30, 66, 0.2);
+  font-size: 15px;
+  margin-bottom: 4px;
+  padding: 7px;
+  resize: none;
+}
+
+.List .form .btns {
+  display: flex;
+  align-items: center;
+}
+
+.List .form .btn-add {
+  background-color: #0079bf;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  padding: 7px 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.List .form .btn-close {
+  margin-left: 10px;
+  color: rgb(80, 80, 80);
+  cursor: pointer;
+}

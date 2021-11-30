@@ -1,0 +1,24 @@
+.NewBoard {
+  width: 300px;
+  height: 170px;
+  margin-right: 40px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  background-color: rgba(41, 41, 41, 13%);
+  color: #212f4bc7;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NewBoard .icon {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.NewBoard:hover {
+  box-shadow: 0px 0px 15px 2px rgb(65, 64, 64);
+}

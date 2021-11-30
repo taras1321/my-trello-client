@@ -1,0 +1,40 @@
+.EditItemModal .wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.EditItemModal .modal {
+  position: absolute;
+  top: 106px;
+  left: 24px;
+  width: 250px;
+}
+
+.EditItemModal textarea {
+  height: 76px;
+}
+
+.EditItemModal .btn-save,
+.EditItemModal .btn-delete {
+  margin-top: 2px;
+  color: #fff;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.EditItemModal .btn-save {
+  background-color: #0079bf;
+}
+
+.EditItemModal .btn-delete {
+  background-color: #cd5139;
+  margin-left: 10px;
+}

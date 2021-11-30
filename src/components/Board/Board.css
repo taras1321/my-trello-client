@@ -1,0 +1,41 @@
+.Board {
+  width: 300px;
+  height: 170px;
+  margin-right: 40px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  position: relative;
+  text-decoration: none;
+  display: block;
+  background-color: #d29034;
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 3px;
+}
+
+.Board:hover {
+  box-shadow: 0px 0px 15px 2px rgb(65, 64, 64);
+}
+
+.Board .edit-block {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.Board .edit-block:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Board .edit {
+  /* position: absolute; */
+  font-size: 15px;
+}

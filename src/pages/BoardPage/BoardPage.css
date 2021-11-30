@@ -1,0 +1,36 @@
+.BoardPage {
+  width: 100vw;
+  height: 100vh;
+}
+
+.BoardPage .logo {
+  color: #ffffffc4;
+  text-decoration: none;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.BoardPage .header {
+  position: relative;
+  height: 7%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BoardPage .board {
+  position: relative;
+  height: 93%;
+  padding: 15px 10px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.BoardPage .board-title {
+  position: absolute;
+  left: 15px;
+  bottom: 8px;
+  font-size: 15px;
+  color: #ffffffa6;
+}
