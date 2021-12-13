@@ -36,6 +36,11 @@
 }
 
 .Board .edit {
-  /* position: absolute; */
   font-size: 15px;
+}
+
+@media (max-width: 760px) {
+  .Board {
+    margin-right: 0;
+  }
 }

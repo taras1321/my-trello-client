@@ -20,3 +20,19 @@
   padding: 0 85px;
   flex-wrap: wrap;
 }
+
+@media (max-width: 850px) {
+  .Home .boards {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 760px) {
+  .Home .boards {
+    padding: 0;
+  }
+  .Home .boards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

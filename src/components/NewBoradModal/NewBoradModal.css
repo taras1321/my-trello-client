@@ -106,3 +106,9 @@
 .NewBoradModal .select {
   color: #fff;
 }
+
+@media (max-width: 400px) {
+  .NewBoradModal .modal-el {
+    width: 255px;
+  }
+}
